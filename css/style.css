@@ -824,8 +824,8 @@ fieldset legend {
 }
 
 .bg-black {
-  background-color: var(--black) !important;
-  color: var(--white) !important;
+  background-color: var(--ltn__heading-color);
+  color: var(--white);
 }
 
 .bg-white {
@@ -2611,8 +2611,16 @@ ul {
   padding-left: 70px;
 }
 
+.pl-100 {
+  padding-left: 100px;
+}
+
 .pr-70 {
   padding-right: 70px;
+}
+
+.pr-100 {
+  padding-right: 100px;
 }
 
 /* Padding left right */
@@ -7400,7 +7408,6 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 /* slide-item-2 */
 .ltn__slide-item-2 {
   height: calc(100vh - 0px);
-  padding-top: 200px;
 }
 .ltn__slide-item-2 .slide-item-info {
   max-width: 650px;
@@ -8006,8 +8013,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     font-size: 24px;
   }
   .ltn__slide-item-2 {
-    height: auto;
-    padding-top: 300px;
+    /* height: auto;     */
+    height: calc(80vh - 0px);
   }
   .ltn__slide-item-2 .slide-title {
     font-size: 30px;
@@ -12516,6 +12523,7 @@ input.cart-plus-minus-box {
 .ltn__img-slide-item-4 {
   position: relative;
   margin-bottom: 30px;
+  /* height: 350px; */
 }
 .ltn__img-slide-item-4 .ltn__img-slide-info {
   display: -webkit-box;
@@ -13011,7 +13019,7 @@ input.cart-plus-minus-box {
   display: flex;
 }
 .about-us-info-devide .list-item-with-icon {
-  margin-left: 30px;
+  /* margin-left: 30px; */
   margin-bottom: 30px;
 }
 
@@ -14169,6 +14177,9 @@ input.cart-plus-minus-box {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+.orange-text {
+  color: #393f42;
+}
 .ltn__our-journey-wrap > ul li {
   list-style: none;
   margin: 0;
@@ -14779,6 +14790,18 @@ input.cart-plus-minus-box {
   -webkit-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
+  min-height: 350px;
+  max-height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.ltn__testimonial-img img {
+  width: 100%;
+  min-height: 250px;
+  max-height: 250px;
+  object-fit: cover;
+  background-position: center bottom;
 }
 
 .ltn__img-slide-item-4:hover img,

@@ -1133,6 +1133,8 @@
         speed: 300,
         slidesToShow: 5,
         slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
         prevArrow:
           '<a class="slick-prev"><i class="fas fa-arrow-left" alt="Arrow Icon"></i></a>',
         nextArrow:
