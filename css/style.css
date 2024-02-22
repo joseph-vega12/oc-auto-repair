@@ -15756,7 +15756,9 @@ input.cart-plus-minus-box {
     padding-right: 10px !important;
   }
 }
-
+.ltn__404-area.ltn__404-area-1 {
+  height: 100vh;
+}
 .feature-area {
   padding-right: 100px;
   padding-left: 100px;
